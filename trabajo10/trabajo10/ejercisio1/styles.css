@@ -1,0 +1,47 @@
+
+body{
+    background-color: black;
+}
+.p1{
+    position: absolute;
+    height: 10vw;
+    width: 2vw;
+    background: red;
+    animation-name: p1;
+    animation-duration: 5s;
+}
+.p2{
+    position:   absolute;   
+    margin-left: 2.7vw;
+    height: 10vw;
+    width: 2vw;
+    background: red;
+    transform: rotate(-29deg);
+    animation-name: p2;
+    animation-duration: 5s;
+}
+.p3{
+    position: absolute;
+    margin-left: 5.5vw;
+    height: 10vw;
+    width: 2vw;
+    background: red;
+    animation-name: p1;
+    animation-duration: 5s;
+}
+@keyframes p1{
+    0%{
+        height: 0vw;
+    }
+    100%{
+        height: 10vw;
+    }
+}
+@keyframes p2{
+    0%{
+        height: 0vw;
+    }
+    100%{
+        height: 10vw    ;
+    }
+}
